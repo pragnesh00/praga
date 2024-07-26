@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-image: linear-gradient(rgb(238, 255, 0),blue,green,rgb(255, 34, 0),white,black);
+            }
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 0px;
+            color: black;
+           
+        }
+        #v
+        {
+            font-size: 250%;
+            color: black;
+        }
+        #a
+        {
+            color: black;
+            font-size: 2cm;
+        }
+        #e
+        {
+            color: azure;
+           padding-left: 5cm;
+           font-size: 1cm;
+        }
+        #r
+        {
+            color: azure;
+            font-size: 2cm;
+            padding-left: 5cm;
+        }
+        #t
+        {
+            color: azure;
+            padding-left: 5cm;
+            font-size: 0.5cm;
+        }
+        #i
+        {
+            position: relative;
+            left: 200px;
+          font-size: 5 cm;
+          padding: 15px 16px;
+        }
+        button{
+            height: 75px;
+            width: 150px;
+            border-radius: 20px;
+            border-style: outset;
+            justify-content: space-evenly;
+        }
+        button:hover
+        {
+            background-color: red;
+            color: black;
+        }
+        #j
+        {
+            position: absolute;
+            left: 35cm;
+            top: 9cm;
+            height: 30cm;
+            padding-right: cm;
+        }
+        #p
+        {
+            color: azure;
+            padding-top: 10cm;
+            padding-left: 30cm;
+        }
+        #b
+        {
+            color: azure;
+            padding-left: 30cm;
+            block-size: 30px;
+        }
+        #m
+        {
+            color: azure;
+            line-height: 1.6;
+            padding-left: 30cm;
+        }
+        #c
+        {
+            padding-top: 3cm ;
+            padding-bottom: 1cm;
+            padding-left: 2cm;
+            height: 3cm;
+            width: 7cm;
+        }
+        #z
+        {
+            color: azure;
+            text-align: center;
+            padding-bottom: 6cm;
+        }
+        #q
+        {
+            padding-left: 15cm;
+            padding-bottom: 3cm;
+            text-align: center;
+        }
+        #w
+        {
+            padding-left:  1cm;
+            padding-bottom: 3cm;
+            text-align: center;
+        }
+        #l
+        {
+            padding-left:  1cm;
+            padding-bottom: 3cm;
+            text-align: center;
+        }
+        #o
+        {
+            padding-left:  1cm;
+            padding-bottom: 3cm;
+            text-align: center;
+        }
+        #s
+        {
+            padding-left:  1cm;
+            padding-bottom: 3cm;
+            text-align: center;
+        }
+        #f
+        {
+            color: azure;
+            text-align: center;
+            font-size: 0.5cm;
+            padding-top: 2cm;
+        }
+        #d
+        {
+            text-align: center;
+
+        }
+        #g
+        {
+            height: 8.5cm;
+           
+            padding-left: 5cm;
+        }
+        #u
+        {
+            padding-left: 1cm;
+        }
+        #h
+        {
+            height: 8.5cm;
+            padding-left: 1cm;
+        }
+        #k
+        {
+            height: 8.5cm;
+            padding-left: 1cm;
+        }
+        #n
+        {
+            
+        }
+        #left
+        {
+            flex: 50%;
+            padding-left: 300px;
+            padding-bottom: 20cm;
+          
+            
+        }
+        #right{
+            flex: 50%;
+            border-radius: 50px;
+        }
+        #GHJ
+        {
+            text-align: center;
+        }
+        .oip
+        {
+            height: 75px;
+            width: 275px;
+            border-radius: 20px;
+            border-style: outset;
+            justify-content: space-evenly;
+        }
+        .poi
+        {
+            height: 75px;
+            width: 275px;
+            border-radius: 20px;
+            border-style: outset;
+            justify-content: space-evenly;
+        }
+        .iop{
+            height: 75px;
+            width: 275px;
+            border-radius: 20px;
+            border-style: outset;
+            justify-content: space-evenly;
+        }
+        .nmb
+        {
+            height: 75px;
+            width: 275px;
+            border-radius: 20px;
+            border-style: outset;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <UL id="v">
+    <li id="a"> <b>PRAGNESH</b></li>
+    <li>About</li>
+    <li> Skill</li>
+    <li>Project</li>
+    <li> Contact</li>
+    </ul>
+    <hr>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h3 id="e"><b>Hi Everyone,I am</b></h3>
+    <h1 id="r">PRAGNESH S</h1>
+    <p id="t"> Lorem ipsum dolor sit amet consectetur. Vitae maecenas 
+    pellentesque tellus tempus purus integer nisi cras fermentum.</p><br>
+    <div id="i">
+        <button>Download Cv</button>  <button> Explore More</button>
+    </div>
+    <div id="j">
+    <img src="prag.jpg" style="height: 15cm;width: 15cm;">
+    </div>
+    <h2 id="p">About</h2>
+    <h1 id="b">ABOUT ME?</h1>
+    <div id="m">
+    <p>Lipsum dolor sit amet consectetur. laculis diam augue a adipiscing non aliquet.<br>
+        Leo semper lacus fringilla consectetur cras ac ullamcorper ut.
+        Risus nunc diam accumsan feugiat. Tristique diam consectetur<br>
+        aliquam vitae suspendisse vel leo. Nec quisque senectus laoreet id pulvinar id vulputate.<br>
+        Montes consectetur diam non aliquam nunc maecenas non.<br>
+        Molestie pretium amet id dictum vitae nam vel sit.
+        Rhoncus massa velit ut amet massa morbi eget.</p>
+    </div>
+    <br><br>
+    <div id="c">
+     <img  src="https://static.vecteezy.com/system/resources/previews/002/214/642/non_2x/web-designer-and-programmer-free-vector.jpg" style="position: absolute;top: 28cm;height: 15cm;width: 25cm;">
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="z">
+    <h1>SKILLS</h1>
+    <h1>WHAT I AM CAPABLE OF</h1>
+    </div>
+    <div id="f">
+    <p> IM CAPABLE IN JAVA AND JAVA SCRIPT AND EXPERIENCED IN MANY COMPANY'S ESPESIALLY IN THE MICROSOFT WORKED IN JS FOR 3 YEARS</p>
+    <P> AND ALSO  WORKED IN SOLLITE COMPANY FOR 2 YEARS IN THE LANGUAGE OF PHP WHICH WAS A MODE LEVEL LANGUAGE</P>
+    </div>
+    <img id="q"src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000">
+    <img id="w" src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000">
+    <img id="l" src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000">
+    <img id="o" src="https://img.icons8.com/?size=100&id=fAMVO_fuoOuC&format=png&color=000000">
+    <img id="s" src="https://img.icons8.com/?size=100&id=Pd2x9GWu9ovX&format=png&color=000000">
+    <br>
+    <br>
+    <br>
+    <div id="d">
+    <h1>PROJECTS</h1>
+    <h1>PROJECT WHAT I HAVE MADE</h1>
+    <img id="g" src="https://i.pinimg.com/736x/a4/36/fb/a436fbcc3db7e198bbeeb25dfbe5fb79.jpg">
+    <img id="u" src="https://i.pinimg.com/474x/65/0a/c8/650ac87d7b610c7c39d8ca559666e401.jpg">
+    <img id="h" src="https://www.buylandingpagedesign.com/example/travel-agency-mobile-responsive-website-design-002-index-page-th.jpg">
+    <img id="k" src="https://images-platform.99static.com//5UA6GKOzTRFCSKT2-l72ukVdJxk=/0x0:1920x1920/fit-in/500x500/99designs-contests-attachments/94/94690/attachment_94690232">
+   </div>
+
+    <div style="height: 700px; padding-top: 100px; display: flex;">
+    <div id="left">
+        <h1>Contact <span>Me!</span></h1>
+        <p>If you have any project in your mind</p>
+        <p>
+            You can reach me through the contact form provided on this
+            website.<br> Simply fill out the form with your name, email address,
+            and message, and I will get back to you as soon as possible.
+        </p>
+        <p>Digital Agency Network, 20</p>
+        <p>xyz,</p>
+        <p>India</p>
+        <div>
+            <img id="gta" src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000">
+            <img src="https://img.icons8.com/?size=100&id=ZNMifeqJbPRv&format=png&color=000000">
+            <img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000">
+          </div>
+    </div>
+    <div id="right">
+    <form id="n">
+        <input type="text"  class="iop" placeholder="Your Name" /><br><br>
+        <input type="text" class="poi" placeholder="Your Email Address" /><br><br>
+        <input type="text" class="oip" placeholder ="Your Phone Number" /><br><br>
+        <textarea class="nmb" cols="30" rows="10" placeholder="Your Idea"></textarea><br><br>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+    </div>
+</body>
+</html>
